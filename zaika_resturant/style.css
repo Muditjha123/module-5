@@ -1,0 +1,13 @@
+.container{
+    background-color: aqua;
+    
+}
+#navbarNav {
+    color: blue;
+    
+}
+.nav-item{
+   border: 1px solid black;
+   margin: 15px;
+   
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this is floating window</title>
+    <style>
+      h1{
+        color: aqua;
+      }
+      div{
+        background-color: #0043ff;
+      }
+      p{
+        width: 50px;
+        height: 50px;
+        border: 1px solid red;
+        margin: 10px;
+        overflow: hidden;
+
+      }
+
+      #p1{
+        background-color: pink;
+       float: right;
+       height: 500px;
+       text-align: center;
+      }
+      #p2{
+        background-color: blueviolet;
+        float: left;
+        height: 200px;
+      }
+      #p3{
+        background-color: red;
+        clear: left;
+      }
+      #p4{
+        background-color: black;
+        color: aliceblue;
+      }
+      section{
+         clear: left;
+         text-align: center;
+
+    }
+    </style>
+</head>
+<body>
+    <h1>This is heading</h1>
+    <div>
+        <p id="p1">p1</p>
+        <p id="p2">p2</p>
+        <p id="p3">p3</p>
+        <p id="p4">p4</p>
+        <section >Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, cumque. Lorem ipsum dolor sit amet.</section>
+    </div>
+</body>
+</html>
